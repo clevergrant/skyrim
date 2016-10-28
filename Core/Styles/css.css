@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel';
+    letter-spacing: 1rem;
+    line-height: .5rem;
+}
+
+@font-face {
+    font-family: skyrim;
+    src: url('../../Bootstrap/fonts/Skyrim-icomoon.woff');
+}
+
+.skyrim-icon {
+    font-family: skyrim;
+    font-size: 3rem;
+    position: relative;
+    bottom: -.8rem;
+}
