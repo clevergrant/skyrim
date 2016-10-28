@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Skyrim Tools</title>
+    <title>Search | Skyrim Tools</title>
 
     <meta name="google-signin-client_id" content="154385102439-9r9naqaioijf8n95im2vaaic8gtn1u4p.apps.googleusercontent.com">
 
-    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="Core/Styles/css.css" />
+    <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Core/Styles/css.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 
-    <script src="Core/Scripts/jquery-3.1.1.min.js" defer></script>
-    <script src="Bootstrap/js/bootstrap.min.js" defer></script>
-    <script src="Core/Scripts/js.js" defer></script>
+    <script src="../Core/Scripts/jquery-3.1.1.min.js" defer></script>
+    <script src="../Bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="../Core/Scripts/js.js" defer></script>
 
 </head>
-
 <body>
 
     <nav class="navbar navbar-inverse">
@@ -28,12 +26,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SKYRIM<span class="skyrim-icon">&#xe900;</span><span style="letter-spacing: .5rem;">tools</span></a>
+                <a class="navbar-brand" href="../index.html">SKYRIM<span class="skyrim-icon">&#xe900;</span><span style="letter-spacing: .5rem;">tools</span></a>
             </div>
             <div class="collapse navbar-collapse" id="nav-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <form class="navbar-form form-group" action="Pages/Search.html">
+                        <form class="navbar-form form-group" action="Search.html">
                             <div class="input-group">
                                 <input class="form-control form-byu-search" type="search" name="q" placeholder="Search" />
                                 <div class="input-group-btn">
@@ -49,6 +47,21 @@
         </div>
     </nav>
 
+    <div class="container">
+        <script>
+            (function() {
+                var cx = '015468745371585915766:kfdexdhociy';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>
+        <gcse:searchresults-only></gcse:searchresults-only>
+    </div>
+    
 </body>
 
 </html>
