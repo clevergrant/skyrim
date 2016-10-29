@@ -1,0 +1,1001 @@
+[{
+        "id": 0,
+        "name": "Abacean Longfin",
+        "effect": [
+            "Weakness to Frost",
+            "Fortify Sneak",
+            "Weakness to Poison",
+            "Fortify Restoration"
+        ]
+    },
+    {
+        "id": 1,
+        "expansion": "vanilla",
+        "name": "Bear Claws",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Health",
+            "Fortify One-Handed",
+            "Damage Magicka Regen"
+        ]
+    },
+    {
+        "id": 2,
+        "expansion": "vanilla",
+        "name": "Bee",
+        "effect": [
+            "Restore Stamina",
+            "Ravage Stamina",
+            "Regenerate Stamina",
+            "Weakness to Shock"
+        ]
+    },
+    {
+        "id": 3,
+        "expansion": "vanilla",
+        "name": "Beehive Husk",
+        "effect": [
+            "Resist Poison",
+            "Fortify Light Armor",
+            "Fortify Sneak",
+            "Fortify Destruction"
+        ]
+    },
+    {
+        "id": 4,
+        "expansion": "vanilla",
+        "name": "Bleeding Crown",
+        "effect": [
+            "Weakness to Fire",
+            "Fortify Block",
+            "Weakness to Poison",
+            "Resist Magic"
+        ]
+    },
+    {
+        "id": 5,
+        "expansion": "vanilla",
+        "name": "Blisterwort",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Conjuration",
+            "Damage Magicka Regen",
+            "Fortify Smithing"
+        ]
+    },
+    {
+        "id": 6,
+        "expansion": "vanilla",
+        "name": "Blue Butterfly Wing",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Conjuration",
+            "Damage Magicka",
+            "Fortify Enchanting"
+        ]
+    },
+    {
+        "id": 7,
+        "expansion": "vanilla",
+        "name": "Blue Dartwing",
+        "effect": [
+            "Resist Shock",
+            "Fortify Pickpocket",
+            "Restore Health",
+            "Fear"
+        ]
+    },
+    {
+        "id": 8,
+        "expansion": "vanilla",
+        "name": "Blue Mountain Flower",
+        "effect": [
+            "Restore Health",
+            "Fortify Conjuration",
+            "Fortify Health",
+            "Damage Magicka Regen"
+        ]
+    },
+    {
+        "id": 9,
+        "expansion": "vanilla",
+        "name": "Bone Meal",
+        "effect": [
+            "Damage Stamina",
+            "Resist Fire",
+            "Fortify Conjuration",
+            "Ravage Stamina"
+        ]
+    },
+    {
+        "id": 10,
+        "expansion": "vanilla",
+        "name": "Briar heart",
+        "effect": [
+            "Restore Magicka",
+            "Fortify Block",
+            "Paralysis",
+            "Fortify Magicka"
+        ]
+    },
+    {
+        "id": 11,
+        "expansion": "vanilla",
+        "name": "Butterfly Wing",
+        "effect": [
+            "Restore Health",
+            "Fortify Barter",
+            "Lingering Damage Stamina",
+            "Damage Magicka"
+        ]
+    },
+    {
+        "id": 12,
+        "expansion": "vanilla",
+        "name": "Canis Root",
+        "effect": [
+            "Damage Stamina",
+            "Fortify One-Handed",
+            "Fortify Marksman",
+            "Paralysis"
+        ]
+    },
+    {
+        "id": 13,
+        "expansion": "vanilla",
+        "name": "Charred Skeever Hide",
+        "effect": [
+            "Restore Stamina",
+            "Cure Disease",
+            "Resist Poison",
+            "Restore Health"
+        ]
+    },
+    {
+        "id": 14,
+        "expansion": "vanilla",
+        "name": "Chaurus Eggs",
+        "effect": [
+            "Weakness to Poison",
+            "Fortify Stamina",
+            "Damage Magicka",
+            "Invisibility"
+        ]
+    },
+    {
+        "id": 15,
+        "expansion": "vanilla",
+        "name": "Chicken's Egg",
+        "effect": [
+            "Resist Magic",
+            "Damage Magicka Regen",
+            "Waterbreathing",
+            "Lingering Damage Stamina"
+        ]
+    },
+    {
+        "id": 16,
+        "expansion": "vanilla",
+        "name": "Creep Cluster",
+        "effect": [
+            "Restore Magicka",
+            "Damage Stamina Regen",
+            "Fortify Carry Weight",
+            "Weakness to Magic"
+        ]
+    },
+    {
+        "id": 17,
+        "expansion": "vanilla",
+        "name": "Crimson Nirnroot",
+        "effect": [
+            "Damage Health",
+            "Damage Stamina",
+            "Invisibility",
+            "Resist Magic"
+        ]
+    },
+    {
+        "id": 18,
+        "expansion": "vanilla",
+        "name": "Cyrodilic Spadetail",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Restoration",
+            "Fear",
+            "Ravage Health"
+        ]
+    },
+    {
+        "id": 19,
+        "expansion": "vanilla",
+        "name": "Daedra Heart",
+        "effect": [
+            "Restore Health",
+            "Damage Stamina Regen",
+            "Damage Magicka",
+            "Fear"
+        ]
+    },
+    {
+        "id": 20,
+        "expansion": "vanilla",
+        "name": "Deathbell",
+        "effect": [
+            "Damage Health",
+            "Ravage Stamina",
+            "Slow",
+            "Weakness to Poison"
+        ]
+    },
+    {
+        "id": 21,
+        "expansion": "vanilla",
+        "name": "Dragon's Tongue",
+        "effect": [
+            "Resist Fire",
+            "Fortify Barter",
+            "Fortify Illusion",
+            "Fortify Two-Handed"
+        ]
+    },
+    {
+        "id": 22,
+        "expansion": "vanilla",
+        "name": "Dwarven Oil",
+        "effect": [
+            "Weakness to Magic",
+            "Fortify Illusion",
+            "Regenerate Magicka",
+            "Restore Magicka"
+        ]
+    },
+    {
+        "id": 23,
+        "expansion": "vanilla",
+        "name": "Ectoplasm",
+        "effect": [
+            "Restore Magicka",
+            "Fortify Destruction",
+            "Fortify Magicka",
+            "Damage Health"
+        ]
+    },
+    {
+        "id": 24,
+        "expansion": "vanilla",
+        "name": "Elves Ear",
+        "effect": [
+            "Restore Magicka",
+            "Fortify Marksman",
+            "Weakness to Frost",
+            "Resist Fire"
+        ]
+    },
+    {
+        "id": 25,
+        "expansion": "vanilla",
+        "name": "Eye of Sabre Cat",
+        "effect": [
+            "Restore Stamina",
+            "Ravage Health",
+            "Damage Magicka",
+            "Restore Health"
+        ]
+    },
+    {
+        "id": 26,
+        "expansion": "vanilla",
+        "name": "Falmer Ear",
+        "effect": [
+            "Damage Health",
+            "Frenzy",
+            "Resist Poison",
+            "Fortify Lockpicking"
+        ]
+    },
+    {
+        "id": 27,
+        "expansion": "vanilla",
+        "name": "Fire Salts",
+        "effect": [
+            "Weakness to Frost",
+            "Resist Fire",
+            "Restore Magicka",
+            "Regenerate Magicka"
+        ]
+    },
+    {
+        "id": 28,
+        "expansion": "vanilla",
+        "name": "Fly Amanita",
+        "effect": [
+            "Resist Fire",
+            "Fortify Two-Handed",
+            "Frenzy",
+            "Regenerate Stamina"
+        ]
+    },
+    {
+        "id": 29,
+        "expansion": "vanilla",
+        "name": "Frost Mirriam",
+        "effect": [
+            "Resist Frost",
+            "Fortify Sneak",
+            "Ravage Magicka",
+            "Damage Stamina Regen"
+        ]
+    },
+    {
+        "id": 30,
+        "expansion": "vanilla",
+        "name": "Frost Salts",
+        "effect": [
+            "Weakness to Fire",
+            "Resist Frost",
+            "Restore Magicka",
+            "Fortify Conjuration"
+        ]
+    },
+    {
+        "id": 31,
+        "expansion": "vanilla",
+        "name": "Garlic",
+        "effect": [
+            "Resist Poison",
+            "Fortify Stamina",
+            "Regenerate Magicka",
+            "Regenerate Health"
+        ]
+    },
+    {
+        "id": 32,
+        "expansion": "vanilla",
+        "name": "Giant Lichen",
+        "effect": [
+            "Weakness to Shock",
+            "Ravage Health",
+            "Weakness to Poison",
+            "Restore Magicka"
+        ]
+    },
+    {
+        "id": 33,
+        "expansion": "vanilla",
+        "name": "Giant's Toe",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Health",
+            "Fortify Carry Weight",
+            "Damage Stamina Regen"
+        ]
+    },
+    {
+        "id": 34,
+        "expansion": "vanilla",
+        "name": "Glow Dust",
+        "effect": [
+            "Damage Magicka",
+            "Damage Magicka Regen",
+            "Fortify Destruction",
+            "Resist Shock"
+        ]
+    },
+    {
+        "id": 35,
+        "expansion": "vanilla",
+        "name": "Glowing Mushroom",
+        "effect": [
+            "Resist Shock",
+            "Fortify Destruction",
+            "Fortify Smithing",
+            "Fortify Health"
+        ]
+    },
+    {
+        "id": 36,
+        "expansion": "vanilla",
+        "name": "Grass Pod",
+        "effect": [
+            "Resist Poison",
+            "Ravage Magicka",
+            "Fortify Alteration",
+            "Restore Magicka"
+        ]
+    },
+    {
+        "id": 37,
+        "expansion": "vanilla",
+        "name": "Hagraven Claw",
+        "effect": [
+            "Resist Magic",
+            "Lingering Damage Magicka",
+            "Fortify Enchanting",
+            "Fortify Barter"
+        ]
+    },
+    {
+        "id": 38,
+        "expansion": "vanilla",
+        "name": "Hagraven Feathers",
+        "effect": [
+            "Damage Magicka",
+            "Fortify Conjuration",
+            "Frenzy",
+            "Weakness to Shock"
+        ]
+    },
+    {
+        "id": 39,
+        "expansion": "vanilla",
+        "name": "Hanging Moss",
+        "effect": [
+            "Damage Magicka",
+            "Fortify Health",
+            "Damage Magicka Regen",
+            "Fortify One-Handed"
+        ]
+    },
+    {
+        "id": 40,
+        "expansion": "vanilla",
+        "name": "Hawk Beak",
+        "effect": [
+            "Restore Stamina",
+            "Resist Frost",
+            "Fortify Carry Weight",
+            "Resist Shock"
+        ]
+    },
+    {
+        "id": 41,
+        "expansion": "vanilla",
+        "name": "Hawk Feathers",
+        "effect": [
+            "Cure Disease",
+            "Fortify Light Armor",
+            "Fortify One-Handed",
+            "Fortify Sneak"
+        ]
+    },
+    {
+        "id": 42,
+        "expansion": "vanilla",
+        "name": "Histcarp",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Magicka",
+            "Damage Stamina Regen",
+            "Waterbreathing"
+        ]
+    },
+    {
+        "id": 43,
+        "expansion": "vanilla",
+        "name": "Honeycomb",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Block",
+            "Fortify Light Armor",
+            "Ravage Stamina"
+        ]
+    },
+    {
+        "id": 44,
+        "expansion": "vanilla",
+        "name": "Human Flesh",
+        "effect": [
+            "Damage Health",
+            "Paralysis",
+            "Restore Magicka",
+            "Fortify Sneak"
+        ]
+    },
+    {
+        "id": 45,
+        "expansion": "vanilla",
+        "name": "Human Heart",
+        "effect": [
+            "Damage Health",
+            "Damage Magicka",
+            "Damage Magicka Regen",
+            "Frenzy"
+        ]
+    },
+    {
+        "id": 46,
+        "expansion": "vanilla",
+        "name": "Ice Wraith Teeth",
+        "effect": [
+            "Weakness to Frost",
+            "Fortify Heavy Armor",
+            "Invisibility",
+            "Weakness to Fire"
+        ]
+    },
+    {
+        "id": 47,
+        "expansion": "vanilla",
+        "name": "Imp Stool",
+        "effect": [
+            "Damage Health",
+            "Lingering Damage Health",
+            "Paralysis",
+            "Restore Health"
+        ]
+    },
+    {
+        "id": 48,
+        "expansion": "vanilla",
+        "name": "Jazbay Grapes",
+        "effect": [
+            "Weakness to Magic",
+            "Fortify Magicka",
+            "Regenerate Magicka",
+            "Ravage Health"
+        ]
+    },
+    {
+        "id": 49,
+        "expansion": "vanilla",
+        "name": "Juniper Berries",
+        "effect": [
+            "Weakness to Fire",
+            "Fortify Marksman",
+            "Regenerate Health",
+            "Damage Stamina Regen"
+        ]
+    },
+    {
+        "id": 50,
+        "expansion": "vanilla",
+        "name": "Large Antlers",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Stamina",
+            "Slow",
+            "Damage Stamina Regen"
+        ]
+    },
+    {
+        "id": 51,
+        "expansion": "vanilla",
+        "name": "Lavender",
+        "effect": [
+            "Resist Magic",
+            "Fortify Stamina",
+            "Ravage Magicka",
+            "Fortify Conjuration"
+        ]
+    },
+    {
+        "id": 52,
+        "expansion": "vanilla",
+        "name": "Luna Moth Wing",
+        "effect": [
+            "Damage Magicka",
+            "Fortify Light Armor",
+            "Regenerate Health",
+            "Invisibility"
+        ]
+    },
+    {
+        "id": 53,
+        "expansion": "vanilla",
+        "name": "Moon Sugar",
+        "effect": [
+            "Weakness to Fire",
+            "Resist Frost",
+            "Restore Magicka",
+            "Regenerate Magicka"
+        ]
+    },
+    {
+        "id": 54,
+        "expansion": "vanilla",
+        "name": "Mora Tapinella",
+        "effect": [
+            "Restore Magicka",
+            "Lingering Damage Health",
+            "Regenerate Stamina",
+            "Fortify Illusion"
+        ]
+    },
+    {
+        "id": 55,
+        "expansion": "vanilla",
+        "name": "Mudcrab Chitin",
+        "effect": [
+            "Restore Stamina",
+            "Cure Disease",
+            "Resist Poison",
+            "Resist Fire"
+        ]
+    },
+    {
+        "id": 56,
+        "expansion": "vanilla",
+        "name": "Namira's Rot",
+        "effect": [
+            "Damage Magicka",
+            "Fortify Lockpicking",
+            "Fear",
+            "Regenerate Health"
+        ]
+    },
+    {
+        "id": 57,
+        "expansion": "vanilla",
+        "name": "Nightshade",
+        "effect": [
+            "Damage Health",
+            "Damage Magicka Regen",
+            "Lingering Damage Stamina",
+            "Fortify Destruction"
+        ]
+    },
+    {
+        "id": 58,
+        "expansion": "vanilla",
+        "name": "Nirnroot",
+        "effect": [
+            "Damage Health",
+            "Damage Stamina",
+            "Invisibility",
+            "Resist Magic"
+        ]
+    },
+    {
+        "id": 59,
+        "expansion": "vanilla",
+        "name": "Nordic Barnacle",
+        "effect": [
+            "Damage Magicka",
+            "Waterbreathing",
+            "Regenerate Health",
+            "Fortify Pickpocket"
+        ]
+    },
+    {
+        "id": 60,
+        "expansion": "vanilla",
+        "name": "Orange Dartwing",
+        "effect": [
+            "Restore Stamina",
+            "Ravage Magicka",
+            "Fortify Pickpocket",
+            "Lingering Damage Health"
+        ]
+    },
+    {
+        "id": 61,
+        "expansion": "vanilla",
+        "name": "Pearl",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Block",
+            "Restore Magicka",
+            "Resist Shock"
+        ]
+    },
+    {
+        "id": 62,
+        "expansion": "vanilla",
+        "name": "Pine Thrush Egg",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Lockpicking",
+            "Weakness to Poison",
+            "Resist Shock"
+        ]
+    },
+    {
+        "id": 63,
+        "expansion": "vanilla",
+        "name": "Powdered Mammoth Tusk",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Sneak",
+            "Weakness to Fire",
+            "Fear"
+        ]
+    },
+    {
+        "id": 64,
+        "expansion": "vanilla",
+        "name": "Purple Mountain Flower",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Sneak",
+            "Lingering Damage Magicka",
+            "Resist Frost"
+        ]
+    },
+    {
+        "id": 65,
+        "expansion": "vanilla",
+        "name": "Red Mountain Flower",
+        "effect": [
+            "Restore Magicka",
+            "Ravage Magicka",
+            "Fortify Magicka",
+            "Damage Health"
+        ]
+    },
+    {
+        "id": 66,
+        "expansion": "vanilla",
+        "name": "River Betty",
+        "effect": [
+            "Damage Health",
+            "Fortify Alteration",
+            "Slow",
+            "Fortify Carry Weight"
+        ]
+    },
+    {
+        "id": 67,
+        "expansion": "vanilla",
+        "name": "Rock Warbler Egg",
+        "effect": [
+            "Restore Health",
+            "Fortify One-Handed",
+            "Damage Stamina",
+            "Weakness to Magic"
+        ]
+    },
+    {
+        "id": 68,
+        "expansion": "vanilla",
+        "name": "Sabre Cat Tooth",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Heavy Armor",
+            "Fortify Smithing",
+            "Weakness to Poison"
+        ]
+    },
+    {
+        "id": 69,
+        "expansion": "vanilla",
+        "name": "Salt Pile",
+        "effect": [
+            "Weakness to Magic",
+            "Fortify Restoration",
+            "Slow",
+            "Regenerate Magicka"
+        ]
+    },
+    {
+        "id": 70,
+        "expansion": "vanilla",
+        "name": "Scaly Pholiota",
+        "effect": [
+            "Weakness to Magic",
+            "Fortify Illusion",
+            "Regenerate Stamina",
+            "Fortify Carry Weight"
+        ]
+    },
+    {
+        "id": 71,
+        "expansion": "vanilla",
+        "name": "Silverside Perch",
+        "effect": [
+            "Restore Stamina",
+            "Damage Stamina Regen",
+            "Ravage Health",
+            "Resist Frost"
+        ]
+    },
+    {
+        "id": 72,
+        "expansion": "vanilla",
+        "name": "Skeever Tail",
+        "effect": [
+            "Damage Stamina Regen",
+            "Ravage Health",
+            "Damage Health",
+            "Fortify Light Armor"
+        ]
+    },
+    {
+        "id": 73,
+        "expansion": "vanilla",
+        "name": "Slaughterfish Egg",
+        "effect": [
+            "Resist Poison",
+            "Fortify Pickpocket",
+            "Lingering Damage Health",
+            "Fortify Stamina"
+        ]
+    },
+    {
+        "id": 74,
+        "expansion": "vanilla",
+        "name": "Slaughterfish Scales",
+        "effect": [
+            "Resist Frost",
+            "Lingering Damage Health",
+            "Fortify Heavy Armor",
+            "Fortify Block"
+        ]
+    },
+    {
+        "id": 75,
+        "expansion": "vanilla",
+        "name": "Small Antlers",
+        "effect": [
+            "Weakness to Poison",
+            "Fortify Restoration",
+            "Lingering Damage Stamina",
+            "Damage Health"
+        ]
+    },
+    {
+        "id": 76,
+        "expansion": "vanilla",
+        "name": "Small Pearl",
+        "effect": [
+            "Restore Stamina",
+            "Fortify One-Handed",
+            "Fortify Restoration",
+            "Resist Frost"
+        ]
+    },
+    {
+        "id": 77,
+        "expansion": "vanilla",
+        "name": "Snowberries",
+        "effect": [
+            "Resist Fire",
+            "Fortify Enchanting",
+            "Resist Frost",
+            "Resist Shock"
+        ]
+    },
+    {
+        "id": 78,
+        "expansion": "vanilla",
+        "name": "Spider Egg",
+        "effect": [
+            "Damage Stamina",
+            "Damage Magicka Regen",
+            "Fortify Lockpicking",
+            "Fortify Marksman"
+        ]
+    },
+    {
+        "id": 79,
+        "expansion": "vanilla",
+        "name": "Spriggan Sap",
+        "effect": [
+            "Damage Magicka Regen",
+            "Fortify Enchanting",
+            "Fortify Smithing",
+            "Fortify Alteration"
+        ]
+    },
+    {
+        "id": 80,
+        "expansion": "vanilla",
+        "name": "Swamp Fungal Pod",
+        "effect": [
+            "Resist Shock",
+            "Lingering Damage Magicka",
+            "Paralysis",
+            "Restore Health"
+        ]
+    },
+    {
+        "id": 81,
+        "expansion": "vanilla",
+        "name": "Taproot",
+        "effect": [
+            "Weakness to Magic",
+            "Fortify Illusion",
+            "Regenerate Magicka",
+            "Restore Magicka"
+        ]
+    },
+    {
+        "id": 82,
+        "expansion": "vanilla",
+        "name": "Thistle Branch",
+        "effect": [
+            "Resist Frost",
+            "Ravage Stamina",
+            "Resist Poison",
+            "Fortify Heavy Armor"
+        ]
+    },
+    {
+        "id": 83,
+        "expansion": "vanilla",
+        "name": "Torchbug Thorax",
+        "effect": [
+            "Restore Stamina",
+            "Lingering Damage Magicka",
+            "Weakness to Magic",
+            "Fortify Stamina"
+        ]
+    },
+    {
+        "id": 84,
+        "expansion": "vanilla",
+        "name": "Troll Fat",
+        "effect": [
+            "Resist Poison",
+            "Fortify Two-Handed",
+            "Frenzy",
+            "Damage Health"
+        ]
+    },
+    {
+        "id": 85,
+        "expansion": "vanilla",
+        "name": "Tundra Cotton",
+        "effect": [
+            "Resist Magic",
+            "Fortify Magicka",
+            "Fortify Block",
+            "Fortify Barter"
+        ]
+    },
+    {
+        "id": 86,
+        "expansion": "vanilla",
+        "name": "Vampire Dust",
+        "effect": [
+            "Invisibility",
+            "Restore Magicka",
+            "Regenerate Health",
+            "Cure Disease"
+        ]
+    },
+    {
+        "id": 87,
+        "expansion": "vanilla",
+        "name": "Void Salts",
+        "effect": [
+            "Weakness to Shock",
+            "Resist Magic",
+            "Damage Health",
+            "Fortify Magicka"
+        ]
+    },
+    {
+        "id": 88,
+        "expansion": "vanilla",
+        "name": "Wheat",
+        "effect": [
+            "Restore Health",
+            "Fortify Health",
+            "Damage Stamina Regen",
+            "Lingering Damage Magicka"
+        ]
+    },
+    {
+        "id": 89,
+        "expansion": "vanilla",
+        "name": "White Cap",
+        "effect": [
+            "Weakness to Frost",
+            "Fortify Heavy Armor",
+            "Restore Magicka",
+            "Ravage Magicka"
+        ]
+    },
+    {
+        "id": 90,
+        "expansion": "vanilla",
+        "name": "Wisp Wrappings",
+        "effect": [
+            "Restore Stamina",
+            "Fortify Destruction",
+            "Fortify Carry Weight",
+            "Resist Magic"
+        ]
+    }
+]
