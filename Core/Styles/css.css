@@ -3,7 +3,13 @@
     src: url('../../Bootstrap/fonts/Skyrim-icomoon.woff');
 }
 
-.cinzel {
+.cinzel,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Cinzel';
 }
 
@@ -19,6 +25,7 @@ a:focus {
 
 a:hover {
     color: #666;
+    cursor: pointer;
 }
 
 .navbar {
@@ -50,6 +57,11 @@ a:hover {
     left: -.8rem;
 }
 
+.jumbotron {
+    background-image: url('/Core/Images/skyrim.jpg');
+    background-size: cover;
+}
+
 .jumboTitle {
     font-family: 'Cinzel';
 }
@@ -61,4 +73,49 @@ a:hover {
 .jumboTitle h3,
 .jumboTitle h4 {
     letter-spacing: 1rem;
+}
+
+.underline {
+    border-bottom: 1px solid #333;
+}
+
+.main-body {
+    padding-top: 3rem;
+}
+
+.tab-content {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    padding: 3rem;
+}
+
+.scroll {
+    overflow-y: scroll;
+    max-height: 30rem;
+}
+
+
+/*
+    Bootstrap Fixes
+*/
+
+.nav-tabs.nav-justified>.active>a,
+.nav-tabs.nav-justified>.active>a:focus,
+.nav-tabs.nav-justified>.active>a:hover {
+    border-bottom: none;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+    outline: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

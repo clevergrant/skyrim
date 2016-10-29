@@ -21,10 +21,92 @@
 
     <nav class="navbar navbar-inverse"></nav>
 
-    <div class="container">
+    <div class="container main-body">
+
+        <center>
+            <h1>ALCHEMY</h1>
+        </center>
+
+        <br>
+
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li role="presentation" class="active"><a href="#create" aria-controls="create" role="tab" data-toggle="tab">Create Potions</a></li>
+            <li role="presentation"><a href="#recipes" aria-controls="recipes" role="tab" data-toggle="tab">Find Recipes</a></li>
+            <li role="presentation"><a href="#ingredients" aria-controls="ingredients" role="tab" data-toggle="tab">All Ingredients</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="create">
+                <center>
+                    <h3>Create Potions</h3>
+                </center>
+
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <h4>My Ingredients</h4>
+                        <button type="button" class="btn btn-danger" onclick="clearIng()" id="clearbtn" style="display:none;">Clear All</button>
+                        <br><br>
+                        <ul class="list-group" id="currIngList"></ul>
+
+                        <h4>Available Potions</h4>
+                        <ul class="list-group" id="currPotList"></ul>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Add Ingredients</h4>
+                        <input type="text" class="form-control" placeholder="Search Ingredients" id="ingSearch" />
+                        <br>
+                        <div class="panel panel-default scroll">
+                            <div class="list-group" id="currIngTable">
+                                <li class="list-group-item" style="color: #ccc;">Results</li>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="recipes">
+                RECIPES
+            </div>
+            <div role="tabpanel" class="tab-pane" id="ingredients"></div>
+        </div>
 
     </div>
 
 </body>
 
 </html>
+
+<!--
+single effects:
+
+cure
+fear
+frenzy
+invisibility
+palarysis
+slow
+waterbreathing
+
+effects on health/stamina/magicka:
+
+damage
+damage regen
+lingering damage
+ravage
+
+(fortify)
+regenerate
+restore
+
+effects on skills:
+
+fortify
+
+elemental effects:
+
+resist
+weakness
+-->
