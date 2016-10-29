@@ -2,12 +2,16 @@
 
 
     {
-        "text": "New Character",
-        "url": "../Pages/Character.html"
+        "text": "Alchemy",
+        "url": "/Pages/Alchemy.html"
     },
     {
-        "text": "Alchemy",
-        "url": "../Pages/Alchemy.html"
+        "text": "Character",
+        "url": "/Pages/Character.html"
+    },
+    {
+        "text": "Smithing",
+        "url": "/Pages/Smithing.html"
     }
 
 ]

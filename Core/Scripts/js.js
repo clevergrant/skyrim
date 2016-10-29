@@ -1,15 +1,21 @@
 $(document).ready(function() {
 
-    $.getJSON("../Core/Data/navbar.json", function(data) {
-        $.each(data, function() {
+    $.get("/Pages/Components/nav.html", function(data) {
+        $("nav").html(data);
 
-            var newNav = "<li>" +
-                "<a href='" + this.url + "'>" +
-                this.text +
-                "</a>" +
-                "</li>";
+        $.getJSON("/Core/Data/navbar.json", function(data) {
+            $.each(data, function() {
 
-            $("#navLinks").append(newNav);
+                var newNav = "<li>" +
+                    "<a href='" + this.url + "'>" +
+                    this.text +
+                    "</a>" +
+                    "</li>";
+
+                $("#navLinks").append(newNav);
+            });
         });
+
     });
+
 });
