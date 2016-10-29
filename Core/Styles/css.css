@@ -1,9 +1,29 @@
-body {
+@font-face {
+    font-family: skyrim;
+    src: url('../../Bootstrap/fonts/Skyrim-icomoon.woff');
+}
 
+.cinzel {
+    font-family: 'Cinzel';
+}
+
+body {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
 }
 
 .navbar {
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -12,9 +32,8 @@ body {
     line-height: .5rem;
 }
 
-@font-face {
-    font-family: skyrim;
-    src: url('../../Bootstrap/fonts/Skyrim-icomoon.woff');
+.navbar-brand:hover {
+    cursor: pointer;
 }
 
 .skyrim-icon {
@@ -22,4 +41,24 @@ body {
     font-size: 3rem;
     position: relative;
     bottom: -.8rem;
+}
+
+.skyrim-logo {
+    font-family: skyrim;
+    font-size: 10rem;
+    position: relative;
+    left: -.8rem;
+}
+
+.jumboTitle {
+    font-family: 'Cinzel';
+}
+
+.jumboTitle h1 {
+    letter-spacing: 2rem;
+}
+
+.jumboTitle h3,
+.jumboTitle h4 {
+    letter-spacing: 1rem;
 }

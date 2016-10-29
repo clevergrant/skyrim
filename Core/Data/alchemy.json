@@ -1,12 +1,14 @@
 [{
         "id": 0,
+        "expansion": "Vanilla",
         "name": "Abacean Longfin",
         "effect": [
             "Weakness to Frost",
             "Fortify Sneak",
             "Weakness to Poison",
             "Fortify Restoration"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 1,
@@ -17,7 +19,8 @@
             "Fortify Health",
             "Fortify One-Handed",
             "Damage Magicka Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 2,
@@ -28,7 +31,8 @@
             "Ravage Stamina",
             "Regenerate Stamina",
             "Weakness to Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 3,
@@ -39,7 +43,8 @@
             "Fortify Light Armor",
             "Fortify Sneak",
             "Fortify Destruction"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 4,
@@ -50,7 +55,8 @@
             "Fortify Block",
             "Weakness to Poison",
             "Resist Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 5,
@@ -61,7 +67,8 @@
             "Fortify Conjuration",
             "Damage Magicka Regen",
             "Fortify Smithing"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 6,
@@ -72,7 +79,8 @@
             "Fortify Conjuration",
             "Damage Magicka",
             "Fortify Enchanting"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 7,
@@ -83,7 +91,8 @@
             "Fortify Pickpocket",
             "Restore Health",
             "Fear"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 8,
@@ -94,7 +103,8 @@
             "Fortify Conjuration",
             "Fortify Health",
             "Damage Magicka Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 9,
@@ -105,7 +115,8 @@
             "Resist Fire",
             "Fortify Conjuration",
             "Ravage Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 10,
@@ -116,7 +127,8 @@
             "Fortify Block",
             "Paralysis",
             "Fortify Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 11,
@@ -127,7 +139,8 @@
             "Fortify Barter",
             "Lingering Damage Stamina",
             "Damage Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 12,
@@ -138,7 +151,8 @@
             "Fortify One-Handed",
             "Fortify Marksman",
             "Paralysis"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 13,
@@ -149,7 +163,8 @@
             "Cure Disease",
             "Resist Poison",
             "Restore Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 14,
@@ -160,7 +175,8 @@
             "Fortify Stamina",
             "Damage Magicka",
             "Invisibility"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 15,
@@ -171,7 +187,8 @@
             "Damage Magicka Regen",
             "Waterbreathing",
             "Lingering Damage Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 16,
@@ -182,7 +199,8 @@
             "Damage Stamina Regen",
             "Fortify Carry Weight",
             "Weakness to Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 17,
@@ -193,7 +211,8 @@
             "Damage Stamina",
             "Invisibility",
             "Resist Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 18,
@@ -204,7 +223,8 @@
             "Fortify Restoration",
             "Fear",
             "Ravage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 19,
@@ -215,7 +235,8 @@
             "Damage Stamina Regen",
             "Damage Magicka",
             "Fear"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 20,
@@ -226,7 +247,8 @@
             "Ravage Stamina",
             "Slow",
             "Weakness to Poison"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 21,
@@ -237,7 +259,8 @@
             "Fortify Barter",
             "Fortify Illusion",
             "Fortify Two-Handed"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 22,
@@ -248,7 +271,8 @@
             "Fortify Illusion",
             "Regenerate Magicka",
             "Restore Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 23,
@@ -259,7 +283,8 @@
             "Fortify Destruction",
             "Fortify Magicka",
             "Damage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 24,
@@ -270,7 +295,8 @@
             "Fortify Marksman",
             "Weakness to Frost",
             "Resist Fire"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 25,
@@ -281,7 +307,8 @@
             "Ravage Health",
             "Damage Magicka",
             "Restore Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 26,
@@ -292,7 +319,8 @@
             "Frenzy",
             "Resist Poison",
             "Fortify Lockpicking"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 27,
@@ -303,7 +331,8 @@
             "Resist Fire",
             "Restore Magicka",
             "Regenerate Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 28,
@@ -314,7 +343,8 @@
             "Fortify Two-Handed",
             "Frenzy",
             "Regenerate Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 29,
@@ -325,7 +355,8 @@
             "Fortify Sneak",
             "Ravage Magicka",
             "Damage Stamina Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 30,
@@ -336,7 +367,8 @@
             "Resist Frost",
             "Restore Magicka",
             "Fortify Conjuration"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 31,
@@ -347,7 +379,8 @@
             "Fortify Stamina",
             "Regenerate Magicka",
             "Regenerate Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 32,
@@ -358,7 +391,8 @@
             "Ravage Health",
             "Weakness to Poison",
             "Restore Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 33,
@@ -369,7 +403,8 @@
             "Fortify Health",
             "Fortify Carry Weight",
             "Damage Stamina Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 34,
@@ -380,7 +415,8 @@
             "Damage Magicka Regen",
             "Fortify Destruction",
             "Resist Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 35,
@@ -391,7 +427,8 @@
             "Fortify Destruction",
             "Fortify Smithing",
             "Fortify Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 36,
@@ -402,7 +439,8 @@
             "Ravage Magicka",
             "Fortify Alteration",
             "Restore Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 37,
@@ -413,7 +451,8 @@
             "Lingering Damage Magicka",
             "Fortify Enchanting",
             "Fortify Barter"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 38,
@@ -424,7 +463,8 @@
             "Fortify Conjuration",
             "Frenzy",
             "Weakness to Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 39,
@@ -435,7 +475,8 @@
             "Fortify Health",
             "Damage Magicka Regen",
             "Fortify One-Handed"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 40,
@@ -446,7 +487,8 @@
             "Resist Frost",
             "Fortify Carry Weight",
             "Resist Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 41,
@@ -457,7 +499,8 @@
             "Fortify Light Armor",
             "Fortify One-Handed",
             "Fortify Sneak"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 42,
@@ -468,7 +511,8 @@
             "Fortify Magicka",
             "Damage Stamina Regen",
             "Waterbreathing"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 43,
@@ -479,7 +523,8 @@
             "Fortify Block",
             "Fortify Light Armor",
             "Ravage Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 44,
@@ -490,7 +535,8 @@
             "Paralysis",
             "Restore Magicka",
             "Fortify Sneak"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 45,
@@ -501,7 +547,8 @@
             "Damage Magicka",
             "Damage Magicka Regen",
             "Frenzy"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 46,
@@ -512,7 +559,8 @@
             "Fortify Heavy Armor",
             "Invisibility",
             "Weakness to Fire"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 47,
@@ -523,7 +571,8 @@
             "Lingering Damage Health",
             "Paralysis",
             "Restore Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 48,
@@ -534,7 +583,8 @@
             "Fortify Magicka",
             "Regenerate Magicka",
             "Ravage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 49,
@@ -545,7 +595,8 @@
             "Fortify Marksman",
             "Regenerate Health",
             "Damage Stamina Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 50,
@@ -556,7 +607,8 @@
             "Fortify Stamina",
             "Slow",
             "Damage Stamina Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 51,
@@ -567,7 +619,8 @@
             "Fortify Stamina",
             "Ravage Magicka",
             "Fortify Conjuration"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 52,
@@ -578,7 +631,8 @@
             "Fortify Light Armor",
             "Regenerate Health",
             "Invisibility"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 53,
@@ -589,7 +643,8 @@
             "Resist Frost",
             "Restore Magicka",
             "Regenerate Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 54,
@@ -600,7 +655,8 @@
             "Lingering Damage Health",
             "Regenerate Stamina",
             "Fortify Illusion"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 55,
@@ -611,7 +667,8 @@
             "Cure Disease",
             "Resist Poison",
             "Resist Fire"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 56,
@@ -622,7 +679,8 @@
             "Fortify Lockpicking",
             "Fear",
             "Regenerate Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 57,
@@ -633,7 +691,8 @@
             "Damage Magicka Regen",
             "Lingering Damage Stamina",
             "Fortify Destruction"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 58,
@@ -644,7 +703,8 @@
             "Damage Stamina",
             "Invisibility",
             "Resist Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 59,
@@ -655,7 +715,8 @@
             "Waterbreathing",
             "Regenerate Health",
             "Fortify Pickpocket"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 60,
@@ -666,7 +727,8 @@
             "Ravage Magicka",
             "Fortify Pickpocket",
             "Lingering Damage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 61,
@@ -677,7 +739,8 @@
             "Fortify Block",
             "Restore Magicka",
             "Resist Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 62,
@@ -688,7 +751,8 @@
             "Fortify Lockpicking",
             "Weakness to Poison",
             "Resist Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 63,
@@ -699,7 +763,8 @@
             "Fortify Sneak",
             "Weakness to Fire",
             "Fear"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 64,
@@ -710,7 +775,8 @@
             "Fortify Sneak",
             "Lingering Damage Magicka",
             "Resist Frost"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 65,
@@ -721,7 +787,8 @@
             "Ravage Magicka",
             "Fortify Magicka",
             "Damage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 66,
@@ -732,7 +799,8 @@
             "Fortify Alteration",
             "Slow",
             "Fortify Carry Weight"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 67,
@@ -743,7 +811,8 @@
             "Fortify One-Handed",
             "Damage Stamina",
             "Weakness to Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 68,
@@ -754,7 +823,8 @@
             "Fortify Heavy Armor",
             "Fortify Smithing",
             "Weakness to Poison"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 69,
@@ -765,7 +835,8 @@
             "Fortify Restoration",
             "Slow",
             "Regenerate Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 70,
@@ -776,7 +847,8 @@
             "Fortify Illusion",
             "Regenerate Stamina",
             "Fortify Carry Weight"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 71,
@@ -787,7 +859,8 @@
             "Damage Stamina Regen",
             "Ravage Health",
             "Resist Frost"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 72,
@@ -798,7 +871,8 @@
             "Ravage Health",
             "Damage Health",
             "Fortify Light Armor"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 73,
@@ -809,7 +883,8 @@
             "Fortify Pickpocket",
             "Lingering Damage Health",
             "Fortify Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 74,
@@ -820,7 +895,8 @@
             "Lingering Damage Health",
             "Fortify Heavy Armor",
             "Fortify Block"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 75,
@@ -831,7 +907,8 @@
             "Fortify Restoration",
             "Lingering Damage Stamina",
             "Damage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 76,
@@ -842,7 +919,8 @@
             "Fortify One-Handed",
             "Fortify Restoration",
             "Resist Frost"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 77,
@@ -853,7 +931,8 @@
             "Fortify Enchanting",
             "Resist Frost",
             "Resist Shock"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 78,
@@ -864,7 +943,8 @@
             "Damage Magicka Regen",
             "Fortify Lockpicking",
             "Fortify Marksman"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 79,
@@ -875,7 +955,8 @@
             "Fortify Enchanting",
             "Fortify Smithing",
             "Fortify Alteration"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 80,
@@ -886,7 +967,8 @@
             "Lingering Damage Magicka",
             "Paralysis",
             "Restore Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 81,
@@ -897,7 +979,8 @@
             "Fortify Illusion",
             "Regenerate Magicka",
             "Restore Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 82,
@@ -908,7 +991,8 @@
             "Ravage Stamina",
             "Resist Poison",
             "Fortify Heavy Armor"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 83,
@@ -919,7 +1003,8 @@
             "Lingering Damage Magicka",
             "Weakness to Magic",
             "Fortify Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 84,
@@ -930,7 +1015,8 @@
             "Fortify Two-Handed",
             "Frenzy",
             "Damage Health"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 85,
@@ -941,7 +1027,8 @@
             "Fortify Magicka",
             "Fortify Block",
             "Fortify Barter"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 86,
@@ -952,7 +1039,8 @@
             "Restore Magicka",
             "Regenerate Health",
             "Cure Disease"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 87,
@@ -963,7 +1051,8 @@
             "Resist Magic",
             "Damage Health",
             "Fortify Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 88,
@@ -974,7 +1063,8 @@
             "Fortify Health",
             "Damage Stamina Regen",
             "Lingering Damage Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 89,
@@ -985,7 +1075,8 @@
             "Fortify Heavy Armor",
             "Restore Magicka",
             "Ravage Magicka"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 90,
@@ -996,7 +1087,8 @@
             "Fortify Destruction",
             "Fortify Carry Weight",
             "Resist Magic"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 91,
@@ -1007,7 +1099,8 @@
             "Fortify Conjuration",
             "Damage Magicka Regen",
             "Fortify Enchanting"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 92,
@@ -1018,7 +1111,8 @@
             "Fortify Conjuration",
             "Damage Magicka Regen",
             "Fortify Enchanting"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 93,
@@ -1029,7 +1123,8 @@
             "Fear",
             "Regenerate Health",
             "Paralysis"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 94,
@@ -1040,7 +1135,8 @@
             "Slow",
             "Fortify Carry Weight",
             "Fear"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 95,
@@ -1051,7 +1147,8 @@
             "Fortify Restoration",
             "Fortify Health",
             "Damage Stamina Regen"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 96,
@@ -1062,7 +1159,8 @@
             "Damage Magicka Regen",
             "Waterbreathing",
             "Lingering Damage Stamina"
-        ]
+        ],
+        "whereFound": ""
     },
     {
         "id": 97,
@@ -1073,6 +1171,7 @@
             "Waterbreathing",
             "Fortify Magicka",
             "Regenerate Health"
-        ]
+        ],
+        "whereFound": ""
     }
 ]
