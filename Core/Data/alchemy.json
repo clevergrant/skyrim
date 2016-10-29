@@ -10,7 +10,7 @@
     },
     {
         "id": 1,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Bear Claws",
         "effect": [
             "Restore Stamina",
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Bee",
         "effect": [
             "Restore Stamina",
@@ -32,7 +32,7 @@
     },
     {
         "id": 3,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Beehive Husk",
         "effect": [
             "Resist Poison",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Bleeding Crown",
         "effect": [
             "Weakness to Fire",
@@ -54,7 +54,7 @@
     },
     {
         "id": 5,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Blisterwort",
         "effect": [
             "Damage Stamina",
@@ -65,7 +65,7 @@
     },
     {
         "id": 6,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Blue Butterfly Wing",
         "effect": [
             "Damage Stamina",
@@ -76,7 +76,7 @@
     },
     {
         "id": 7,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Blue Dartwing",
         "effect": [
             "Resist Shock",
@@ -87,7 +87,7 @@
     },
     {
         "id": 8,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Blue Mountain Flower",
         "effect": [
             "Restore Health",
@@ -98,7 +98,7 @@
     },
     {
         "id": 9,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Bone Meal",
         "effect": [
             "Damage Stamina",
@@ -109,7 +109,7 @@
     },
     {
         "id": 10,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Briar heart",
         "effect": [
             "Restore Magicka",
@@ -120,7 +120,7 @@
     },
     {
         "id": 11,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Butterfly Wing",
         "effect": [
             "Restore Health",
@@ -131,7 +131,7 @@
     },
     {
         "id": 12,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Canis Root",
         "effect": [
             "Damage Stamina",
@@ -142,7 +142,7 @@
     },
     {
         "id": 13,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Charred Skeever Hide",
         "effect": [
             "Restore Stamina",
@@ -153,7 +153,7 @@
     },
     {
         "id": 14,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Chaurus Eggs",
         "effect": [
             "Weakness to Poison",
@@ -164,7 +164,7 @@
     },
     {
         "id": 15,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Chicken's Egg",
         "effect": [
             "Resist Magic",
@@ -175,7 +175,7 @@
     },
     {
         "id": 16,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Creep Cluster",
         "effect": [
             "Restore Magicka",
@@ -186,7 +186,7 @@
     },
     {
         "id": 17,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Crimson Nirnroot",
         "effect": [
             "Damage Health",
@@ -197,7 +197,7 @@
     },
     {
         "id": 18,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Cyrodilic Spadetail",
         "effect": [
             "Damage Stamina",
@@ -208,7 +208,7 @@
     },
     {
         "id": 19,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Daedra Heart",
         "effect": [
             "Restore Health",
@@ -219,7 +219,7 @@
     },
     {
         "id": 20,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Deathbell",
         "effect": [
             "Damage Health",
@@ -230,7 +230,7 @@
     },
     {
         "id": 21,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Dragon's Tongue",
         "effect": [
             "Resist Fire",
@@ -241,7 +241,7 @@
     },
     {
         "id": 22,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Dwarven Oil",
         "effect": [
             "Weakness to Magic",
@@ -252,7 +252,7 @@
     },
     {
         "id": 23,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Ectoplasm",
         "effect": [
             "Restore Magicka",
@@ -263,7 +263,7 @@
     },
     {
         "id": 24,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Elves Ear",
         "effect": [
             "Restore Magicka",
@@ -274,7 +274,7 @@
     },
     {
         "id": 25,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Eye of Sabre Cat",
         "effect": [
             "Restore Stamina",
@@ -285,7 +285,7 @@
     },
     {
         "id": 26,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Falmer Ear",
         "effect": [
             "Damage Health",
@@ -296,7 +296,7 @@
     },
     {
         "id": 27,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Fire Salts",
         "effect": [
             "Weakness to Frost",
@@ -307,7 +307,7 @@
     },
     {
         "id": 28,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Fly Amanita",
         "effect": [
             "Resist Fire",
@@ -318,7 +318,7 @@
     },
     {
         "id": 29,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Frost Mirriam",
         "effect": [
             "Resist Frost",
@@ -329,7 +329,7 @@
     },
     {
         "id": 30,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Frost Salts",
         "effect": [
             "Weakness to Fire",
@@ -340,7 +340,7 @@
     },
     {
         "id": 31,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Garlic",
         "effect": [
             "Resist Poison",
@@ -351,7 +351,7 @@
     },
     {
         "id": 32,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Giant Lichen",
         "effect": [
             "Weakness to Shock",
@@ -362,7 +362,7 @@
     },
     {
         "id": 33,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Giant's Toe",
         "effect": [
             "Damage Stamina",
@@ -373,7 +373,7 @@
     },
     {
         "id": 34,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Glow Dust",
         "effect": [
             "Damage Magicka",
@@ -384,7 +384,7 @@
     },
     {
         "id": 35,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Glowing Mushroom",
         "effect": [
             "Resist Shock",
@@ -395,7 +395,7 @@
     },
     {
         "id": 36,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Grass Pod",
         "effect": [
             "Resist Poison",
@@ -406,7 +406,7 @@
     },
     {
         "id": 37,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Hagraven Claw",
         "effect": [
             "Resist Magic",
@@ -417,7 +417,7 @@
     },
     {
         "id": 38,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Hagraven Feathers",
         "effect": [
             "Damage Magicka",
@@ -428,7 +428,7 @@
     },
     {
         "id": 39,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Hanging Moss",
         "effect": [
             "Damage Magicka",
@@ -439,7 +439,7 @@
     },
     {
         "id": 40,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Hawk Beak",
         "effect": [
             "Restore Stamina",
@@ -450,7 +450,7 @@
     },
     {
         "id": 41,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Hawk Feathers",
         "effect": [
             "Cure Disease",
@@ -461,7 +461,7 @@
     },
     {
         "id": 42,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Histcarp",
         "effect": [
             "Restore Stamina",
@@ -472,7 +472,7 @@
     },
     {
         "id": 43,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Honeycomb",
         "effect": [
             "Restore Stamina",
@@ -483,7 +483,7 @@
     },
     {
         "id": 44,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Human Flesh",
         "effect": [
             "Damage Health",
@@ -494,7 +494,7 @@
     },
     {
         "id": 45,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Human Heart",
         "effect": [
             "Damage Health",
@@ -505,7 +505,7 @@
     },
     {
         "id": 46,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Ice Wraith Teeth",
         "effect": [
             "Weakness to Frost",
@@ -516,7 +516,7 @@
     },
     {
         "id": 47,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Imp Stool",
         "effect": [
             "Damage Health",
@@ -527,7 +527,7 @@
     },
     {
         "id": 48,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Jazbay Grapes",
         "effect": [
             "Weakness to Magic",
@@ -538,7 +538,7 @@
     },
     {
         "id": 49,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Juniper Berries",
         "effect": [
             "Weakness to Fire",
@@ -549,7 +549,7 @@
     },
     {
         "id": 50,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Large Antlers",
         "effect": [
             "Restore Stamina",
@@ -560,7 +560,7 @@
     },
     {
         "id": 51,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Lavender",
         "effect": [
             "Resist Magic",
@@ -571,7 +571,7 @@
     },
     {
         "id": 52,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Luna Moth Wing",
         "effect": [
             "Damage Magicka",
@@ -582,7 +582,7 @@
     },
     {
         "id": 53,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Moon Sugar",
         "effect": [
             "Weakness to Fire",
@@ -593,7 +593,7 @@
     },
     {
         "id": 54,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Mora Tapinella",
         "effect": [
             "Restore Magicka",
@@ -604,7 +604,7 @@
     },
     {
         "id": 55,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Mudcrab Chitin",
         "effect": [
             "Restore Stamina",
@@ -615,7 +615,7 @@
     },
     {
         "id": 56,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Namira's Rot",
         "effect": [
             "Damage Magicka",
@@ -626,7 +626,7 @@
     },
     {
         "id": 57,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Nightshade",
         "effect": [
             "Damage Health",
@@ -637,7 +637,7 @@
     },
     {
         "id": 58,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Nirnroot",
         "effect": [
             "Damage Health",
@@ -648,7 +648,7 @@
     },
     {
         "id": 59,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Nordic Barnacle",
         "effect": [
             "Damage Magicka",
@@ -659,7 +659,7 @@
     },
     {
         "id": 60,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Orange Dartwing",
         "effect": [
             "Restore Stamina",
@@ -670,7 +670,7 @@
     },
     {
         "id": 61,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Pearl",
         "effect": [
             "Restore Stamina",
@@ -681,7 +681,7 @@
     },
     {
         "id": 62,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Pine Thrush Egg",
         "effect": [
             "Restore Stamina",
@@ -692,7 +692,7 @@
     },
     {
         "id": 63,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Powdered Mammoth Tusk",
         "effect": [
             "Restore Stamina",
@@ -703,7 +703,7 @@
     },
     {
         "id": 64,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Purple Mountain Flower",
         "effect": [
             "Restore Stamina",
@@ -714,7 +714,7 @@
     },
     {
         "id": 65,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Red Mountain Flower",
         "effect": [
             "Restore Magicka",
@@ -725,7 +725,7 @@
     },
     {
         "id": 66,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "River Betty",
         "effect": [
             "Damage Health",
@@ -736,7 +736,7 @@
     },
     {
         "id": 67,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Rock Warbler Egg",
         "effect": [
             "Restore Health",
@@ -747,7 +747,7 @@
     },
     {
         "id": 68,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Sabre Cat Tooth",
         "effect": [
             "Restore Stamina",
@@ -758,7 +758,7 @@
     },
     {
         "id": 69,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Salt Pile",
         "effect": [
             "Weakness to Magic",
@@ -769,7 +769,7 @@
     },
     {
         "id": 70,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Scaly Pholiota",
         "effect": [
             "Weakness to Magic",
@@ -780,7 +780,7 @@
     },
     {
         "id": 71,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Silverside Perch",
         "effect": [
             "Restore Stamina",
@@ -791,7 +791,7 @@
     },
     {
         "id": 72,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Skeever Tail",
         "effect": [
             "Damage Stamina Regen",
@@ -802,7 +802,7 @@
     },
     {
         "id": 73,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Slaughterfish Egg",
         "effect": [
             "Resist Poison",
@@ -813,7 +813,7 @@
     },
     {
         "id": 74,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Slaughterfish Scales",
         "effect": [
             "Resist Frost",
@@ -824,7 +824,7 @@
     },
     {
         "id": 75,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Small Antlers",
         "effect": [
             "Weakness to Poison",
@@ -835,7 +835,7 @@
     },
     {
         "id": 76,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Small Pearl",
         "effect": [
             "Restore Stamina",
@@ -846,7 +846,7 @@
     },
     {
         "id": 77,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Snowberries",
         "effect": [
             "Resist Fire",
@@ -857,7 +857,7 @@
     },
     {
         "id": 78,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Spider Egg",
         "effect": [
             "Damage Stamina",
@@ -868,7 +868,7 @@
     },
     {
         "id": 79,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Spriggan Sap",
         "effect": [
             "Damage Magicka Regen",
@@ -879,7 +879,7 @@
     },
     {
         "id": 80,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Swamp Fungal Pod",
         "effect": [
             "Resist Shock",
@@ -890,7 +890,7 @@
     },
     {
         "id": 81,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Taproot",
         "effect": [
             "Weakness to Magic",
@@ -901,7 +901,7 @@
     },
     {
         "id": 82,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Thistle Branch",
         "effect": [
             "Resist Frost",
@@ -912,7 +912,7 @@
     },
     {
         "id": 83,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Torchbug Thorax",
         "effect": [
             "Restore Stamina",
@@ -923,7 +923,7 @@
     },
     {
         "id": 84,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Troll Fat",
         "effect": [
             "Resist Poison",
@@ -934,7 +934,7 @@
     },
     {
         "id": 85,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Tundra Cotton",
         "effect": [
             "Resist Magic",
@@ -945,7 +945,7 @@
     },
     {
         "id": 86,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Vampire Dust",
         "effect": [
             "Invisibility",
@@ -956,7 +956,7 @@
     },
     {
         "id": 87,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Void Salts",
         "effect": [
             "Weakness to Shock",
@@ -967,7 +967,7 @@
     },
     {
         "id": 88,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Wheat",
         "effect": [
             "Restore Health",
@@ -978,7 +978,7 @@
     },
     {
         "id": 89,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "White Cap",
         "effect": [
             "Weakness to Frost",
@@ -989,13 +989,90 @@
     },
     {
         "id": 90,
-        "expansion": "vanilla",
+        "expansion": "Vanilla",
         "name": "Wisp Wrappings",
         "effect": [
             "Restore Stamina",
             "Fortify Destruction",
             "Fortify Carry Weight",
             "Resist Magic"
+        ]
+    },
+    {
+        "id": 91,
+        "expansion": "Dawnguard",
+        "name": "Ancestor Moth Wing",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Conjuration",
+            "Damage Magicka Regen",
+            "Fortify Enchanting"
+        ]
+    },
+    {
+        "id": 92,
+        "expansion": "Dawnguard",
+        "name": "Chaurus Hunter Antennae",
+        "effect": [
+            "Damage Stamina",
+            "Fortify Conjuration",
+            "Damage Magicka Regen",
+            "Fortify Enchanting"
+        ]
+    },
+    {
+        "id": 93,
+        "expansion": "Dawnguard",
+        "name": "Gleamblossom",
+        "effect": [
+            "Resist Magic",
+            "Fear",
+            "Regenerate Health",
+            "Paralysis"
+        ]
+    },
+    {
+        "id": 94,
+        "expansion": "Dawnguard",
+        "name": "Poison Bloom",
+        "effect": [
+            "Damage Health",
+            "Slow",
+            "Fortify Carry Weight",
+            "Fear"
+        ]
+    },
+    {
+        "id": 95,
+        "expansion": "Dawnguard",
+        "name": "Yellow Mountain Flower",
+        "effect": [
+            "Resist Poison",
+            "Fortify Restoration",
+            "Fortify Health",
+            "Damage Stamina Regen"
+        ]
+    },
+    {
+        "id": 96,
+        "expansion": "Hearthfire",
+        "name": "Hawk's Egg",
+        "effect": [
+            "Resist Magic",
+            "Damage Magicka Regen",
+            "Waterbreathing",
+            "Lingering Damage Stamina"
+        ]
+    },
+    {
+        "id": 97,
+        "expansion": "Hearthfire",
+        "name": "Salmon Roe",
+        "effect": [
+            "Restore Stamina",
+            "Waterbreathing",
+            "Fortify Magicka",
+            "Regenerate Health"
         ]
     }
 ]
