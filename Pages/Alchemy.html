@@ -72,36 +72,39 @@
                     <h3>Find Recipes</h3>
                 </center>
 
-                <form class="form-inline" id="potionsDropdowns">
+                <form id="potionsDropdowns">
 
                     <div class="form-group">
-                        <select class="form-control" id="effectSelect">
+                        <select class="form-control" id="effectSelect" name="firstSel">
                             <option disabled selected>Effect</option>
-                            <option value="Single">Single</option>
+                            <option value="Standalone Potions">Standalone Potions</option>
                             <option value="Damage">Damage</option>
                             <option value="Ravage">Ravage</option>
                             <option value="Fortify">Fortify</option>
                             <option value="Regenerate">Regenerate</option>
                             <option value="Restore">Restore</option>
-                            <option value="Magic">Magic</option>
+                            <option value="Magic Potions">Magic Potions</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <select class="form-control" id="targetSelect">
+                        <select class="form-control" id="targetSelect" name="secondSel">
                             <option disabled selected>Target</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <select class="form-control" id="targetSelect">
-                            <option disabled selected>Target</option>
-                        </select>
+                        <select class="form-control" id="thirdSelect" style="display: none;" name="thirdSel"></select>
                     </div>
+
+                    <button class="btn btn-success">Find Recipe</button>
 
                 </form>
 
+                <div id="customIngredients"></div>
+
             </div>
+
             <div role="tabpanel" class="tab-pane" id="ingredients"></div>
         </div>
 

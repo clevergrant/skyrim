@@ -37,7 +37,7 @@ $(function() {
 
     $("#effectSelect").change(function() {
         switch ($(this).val()) {
-            case 'Single':
+            case 'Standalone Potions':
 
                 var list = "<option disabled selected>Potion</option>" +
                     "<option value='Cure Disease'>Cure Disease</option>" +
@@ -49,7 +49,7 @@ $(function() {
                     "<option value='Waterbreathing'>Waterbreathing</option>";
 
                 $("#targetSelect").html(list);
-                $("#thirdSelect").remove();
+                $("#thirdSelect").fadeOut();
 
                 break;
             case 'Damage':
@@ -65,7 +65,7 @@ $(function() {
                     "<option value='Lingering Stamina'>Lingering Stamina</option>";
 
                 $("#targetSelect").html(list);
-                $("#thirdSelect").remove();
+                $("#thirdSelect").fadeOut();
 
                 break;
             case 'Ravage':
@@ -76,7 +76,7 @@ $(function() {
                     "<option value='Stamina'>Stamina</option>";
 
                 $("#targetSelect").html(list);
-                $("#thirdSelect").remove();
+                $("#thirdSelect").fadeOut();
 
                 break;
             case 'Fortify':
@@ -86,10 +86,7 @@ $(function() {
                     "<option value='Skills'>Skills</option>";
 
                 $("#targetSelect").html(list);
-
-                var newSelect = "<div class='form-group'><select class='form-control' id='thirdSelect'></select></div>";
-
-                $("#potionsDropdowns").append(newSelect);
+                $("#thirdSelect").fadeIn();
 
                 var newList = "<option disabled selected>Target</option>" +
                     "<option value='Fire'>Fire</option>" +
@@ -109,7 +106,7 @@ $(function() {
                     "<option value='Stamina'>Stamina</option>";
 
                 $("#targetSelect").html(list);
-                $("#thirdSelect").remove();
+                $("#thirdSelect").fadeOut();
 
                 break;
             case 'Restore':
@@ -120,20 +117,17 @@ $(function() {
                     "<option value='Stamina'>Stamina</option>";
 
                 $("#targetSelect").html(list);
-                $("#thirdSelect").remove();
+                $("#thirdSelect").fadeOut();
 
                 break;
-            case 'Magic':
+            case 'Magic Potions':
 
                 var list = "<option disabled selected>Effect</option>" +
                     "<option value='Resist'>Resist</option>" +
                     "<option value='Weakness'>Weakness</option>";
 
                 $("#targetSelect").html(list);
-
-                var newSelect = "<div class='form-group'><select class='form-control' id='thirdSelect'></select></div>";
-
-                $("#potionsDropdowns").append(newSelect);
+                $("#thirdSelect").fadeIn();
 
                 var newList = "<option disabled selected>Target</option>" +
                     "<option value='Fire'>Fire</option>" +
@@ -149,6 +143,113 @@ $(function() {
             default:
                 break;
         }
+    });
+
+    $("#targetSelect").change(function() {
+        switch ($(this).val()) {
+            case 'Skills':
+
+                var list = "<option disabled selected>Target</option>" +
+                    "<option value='Alteration'>Alteration</option>" +
+                    "<option value='Barter'>Barter</option>" +
+                    "<option value='Block'>Block</option>" +
+                    "<option value='Carry Weight'>Carry Weight</option>" +
+                    "<option value='Conjuration'>Conjuration</option>" +
+                    "<option value='Destruction'>Destruction</option>" +
+                    "<option value='Enchanting'>Enchanting</option>" +
+                    "<option value='Heavy Armor'>Heavy Armor</option>" +
+                    "<option value='Illusion'>Illusion</option>" +
+                    "<option value='Light Armor'>Light Armor</option>" +
+                    "<option value='Lockpicking'>Lockpicking</option>" +
+                    "<option value='Marksman'>Marksman</option>" +
+                    "<option value='One-Handed'>One-Handed</option>" +
+                    "<option value='Pickpocket'>Pickpocket</option>" +
+                    "<option value='Restoration'>Restoration</option>" +
+                    "<option value='Smithing'>Smithing</option>" +
+                    "<option value='Sneak'>Sneak</option>" +
+                    "<option value='Two-Handed'>Two-Handed</option>";
+
+                $("#thirdSelect").html(list);
+
+                break;
+            case 'Stats':
+
+                var list = "<option disabled selected>Target</option>" +
+                    "<option value='Health'>Health</option>" +
+                    "<option value='Magicka'>Magicka</option>" +
+                    "<option value='Stamina'>Stamina</option>";
+
+                $("#thirdSelect").html(list);
+
+                break;
+            default:
+                break;
+        }
+    });
+
+    $("#potionsDropdowns").submit(function(e) {
+        e.preventDefault();
+
+        var one = (e.target.secondSel.value.split(' ')[0] == "Lingering") ? "Lingering Damage" : e.target.firstSel.value;
+
+        var two = (e.target.secondSel.value.split(' ')[0] == "Lingering") ? e.target.secondSel.value.split(' ')[1] : e.target.secondSel.value;
+
+        var thr = e.target.thirdSel.value;
+
+        if (one == 'Standalone Potions' || one == 'Effect' || one == 'Magic Potions') one = '';
+        if (two == 'Stats' || two == 'Skills' || two == 'Target' || two == 'Potion' || two == 'Type' || two == 'Effect') two = '';
+        if (thr == 'Target') thr = '';
+
+        //loadIngTable();
+        console.log('Queries:');
+        console.log('');
+
+        console.log(one);
+        console.log(two);
+        console.log(thr);
+
+        console.log('');
+        console.log('Results:');
+        console.log('');
+
+        console.log('');
+        console.log(alchemyTable[0].effect[0]);
+        console.log('');
+
+        console.log(alchemyTable[0].effect[0].includes(one));
+        console.log(alchemyTable[0].effect[0].includes(two));
+        console.log(alchemyTable[0].effect[0].includes(thr));
+
+        var tables = "<center><h3 class='cinzel'>Ingredients</h3></center>" +
+            "<div class='table-responsive'>" +
+            "<table class='table table-hover'>" +
+            "<tr style='background: #eee;'>" +
+            "<th>No.</th>" +
+            "<th>Ingredient</th>" +
+            "<th>Effect 1</th>" +
+            "<th>Effect 2</th>" +
+            "<th>Effect 3</th>" +
+            "<th>Effect 4</th>" +
+            "</tr>";
+
+        for (var i = 0; i < alchemyTable.length; i++) {
+            for (var j = 0; j < 4; j++) {
+                if (alchemyTable[i].effect[j].includes(one) && alchemyTable[i].effect[j].includes(two) && alchemyTable[i].effect[j].includes(thr)) {
+                    tables += "<tr><td>" + alchemyTable[i].id + "</td>" +
+                        "<td>" + alchemyTable[i].name + "</td>" +
+                        "<td>" + alchemyTable[i].effect[0] + "</td>" +
+                        "<td>" + alchemyTable[i].effect[1] + "</td>" +
+                        "<td>" + alchemyTable[i].effect[2] + "</td>" +
+                        "<td>" + alchemyTable[i].effect[3] + "</td></tr>";
+                }
+            }
+        }
+
+
+        tables += "</tr></table></div>";
+
+        $("#customIngredients").html(tables);
+
     });
 
 });
@@ -177,30 +278,6 @@ function loadNav(callback) {
         }); //$.getJSON
 
     }); //$.get
-}
-
-function loadAccounts(callback) {
-    id = getCookie("id");
-
-    if (id == "") {
-        document.cookie = "id=" + Math.random() + ";";
-        me.id = parseFloat(id);
-    } else {
-
-        $.getJSON("/Core/Data/accounts.json", function(data) {
-            accounts = data;
-            for (var i = 0; i < accounts.length; i++) {
-
-                if (accounts[i].id == parseFloat(id)) {
-                    me = accounts[i];
-                }
-            }
-            callback();
-        }).fail(function(err) {
-            console.log(err);
-        });
-
-    }
 }
 
 /*
@@ -377,7 +454,7 @@ function clearIng() {
 
 function getCharacters() {
 
-    var chars = document.cookie.split('; ');
+    var chars = (document.cookie == '') ? '' : document.cookie.split('; ');
     var aChars = [];
 
     for (var i = 0; i < chars.length; i++) {
@@ -806,7 +883,7 @@ function saveChar(overwrite) {
     }
 
     if ($("#newcharname").val() == "") {
-        newChar.name = "Hrothgar";
+        newChar.name = "Hadvar";
     } else {
         newChar.name = $("#newcharname").val();
     }
@@ -885,19 +962,4 @@ function delCookie(cname) {
     if (getCookie(cname)) {
         document.cookie = cname + "=;expires=Thu, 01 Jan 1970 00:00:01 GMT";
     }
-}
-
-function postJSON(url, data, successFunc, failFunc) {
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: data,
-        dataType: 'json',
-        success: function(data, status) {
-            successFunc(data, status);
-        },
-        error: function(err) {
-            failFunc(err);
-        }
-    });
 }
