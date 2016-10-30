@@ -10,7 +10,8 @@
             "follower": "Lydia",
             "class": "Ranger",
             "details": "Light Armor, One-Handed and Archery. Can't use heavy armor. Alchemy Focus."
-        }]
+        }],
+        "traits": "1,5,9,2"
     }
 
 ]

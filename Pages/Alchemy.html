@@ -68,7 +68,33 @@
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="recipes">
-                RECIPES
+                <center>
+                    <h3>Find Recipes</h3>
+                </center>
+
+                <form class="form-inline" id="potionsDropdowns">
+
+                    <div class="form-group">
+                        <select class="form-control" id="effectSelect">
+                            <option disabled selected>Effect</option>
+                            <option value="Single">Single</option>
+                            <option value="Damage">Damage</option>
+                            <option value="Ravage">Ravage</option>
+                            <option value="Fortify">Fortify</option>
+                            <option value="Regenerate">Regenerate</option>
+                            <option value="Restore">Restore</option>
+                            <option value="Magic">Magic</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" id="targetSelect">
+                            <option disabled selected>Target</option>
+                        </select>
+                    </div>
+
+                </form>
+
             </div>
             <div role="tabpanel" class="tab-pane" id="ingredients"></div>
         </div>
