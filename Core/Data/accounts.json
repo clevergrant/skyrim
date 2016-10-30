@@ -1,0 +1,15 @@
+[
+
+    {
+        "id": 0.1,
+        "character": [{
+            "name": "Jovard",
+            "race": "Bosmer",
+            "faction": "Vampire",
+            "follower": "Lydia",
+            "class": "Ranger",
+            "details": "Light Armor, One-Handed and Archery. Can't use heavy armor. Alchemy Focus."
+        }]
+    }
+
+]

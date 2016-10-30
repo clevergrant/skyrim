@@ -21,7 +21,122 @@
 
     <nav class="navbar navbar-inverse"></nav>
 
-    <div class="container">
+    <div class="container main-body">
+        <center>
+            <h1>CHARACTER</h1>
+            <br>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Create a New Character <span class="caret"></span>
+                            </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal" onclick="newChar(false)">Add Character to My Characters</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal" onclick="newChar(true)">Overwrite all characters with this one</a></li>
+                </ul>
+            </div>
+            <br><br><br>
+        </center>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">New Character</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-horizontal">
+                            <div class="form-group">
+
+                                <label class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" name="name" id="newcharname" />
+                                </div>
+
+                                <label class="col-sm-2 control-label">Race</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static" id="newcharrace"></p>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <center id="newcharpic">
+                                        <img src="" alt="" class="img-thumbnail img-responsive center-block">
+                                    </center>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Faction</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static" id="newcharfaction"></p>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Follower</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static" id="newcharfollower"></p>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Class</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static" id="newcharclass"></p>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Details</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static" id="newchardetails"></p>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="regen()">Re-roll</button>
+                        <button type="button" class="btn btn-success" id="saveChar">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="charPanel">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/Core/Images/Races/Bosmer.png" alt="Bosmer" class="img-thumbnail img-responsive center-block">
+                    </div>
+                    <div class="col-sm-8">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Valkor</p>
+                                </div>
+                                <label class="col-sm-2 control-label">Race</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Bosmer</p>
+                                </div>
+                                <label class="col-sm-2 control-label">Faction</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Vampire</p>
+                                </div>
+                                <label class="col-sm-2 control-label">Follower</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Lydia</p>
+                                </div>
+                                <label class="col-sm-2 control-label">Class</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Ranger</p>
+                                </div>
+                                <label class="col-sm-2 control-label">Details</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">Light Armor, One-Handed and Archery. Can't use heavy armor. Alchemy Focus.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
