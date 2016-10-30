@@ -1,20 +1,3 @@
-//Disable all console commands
-(function() {
-    try {
-        var $_console$$ = console;
-        Object.defineProperty(window, "console", {
-            get: function() {
-                if ($_console$$._commandLineAPI)
-                    throw "Sorry, for security reasons, the script console is deactivated on maoxiantime.com";
-                return $_console$$
-            },
-            set: function($val$$) {
-                $_console$$ = $val$$
-            }
-        })
-    } catch ($ignore$$) {}
-})();
-
 var characters = getCharacters();
 
 //retrieve all the alchemy shtuff
@@ -28,6 +11,24 @@ var effectList = [];
 var newChar = {};
 
 $(function() {
+
+    //Disable all console commands
+    (function() {
+
+        var _z = console;
+        Object.defineProperty(window, "console", {
+            get: function() {
+                if (_z._commandLineAPI) {
+                    throw "Sorry, Can't exceute scripts!";
+                }
+                return _z;
+            },
+            set: function(val) {
+                _z = val;
+            }
+        });
+
+    })();
 
     loadNav(function() {
         $.getJSON("/Core/Data/alchemy.json", function(data) {
