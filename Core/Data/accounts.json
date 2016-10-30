@@ -5,6 +5,7 @@
         "character": [{
             "name": "Jovard",
             "race": "Bosmer",
+            "img": "/Core/Images/Races/Bosmer.png",
             "faction": "Vampire",
             "follower": "Lydia",
             "class": "Ranger",

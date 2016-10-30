@@ -118,3 +118,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.alert h1 {
+    font-family: initial;
+    margin-top: 0;
+}

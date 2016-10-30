@@ -1,30 +1,33 @@
+//set gloabal id
 var id = 0;
 
-var alchemyTable;
+//retrieve all the alchemy shtuff
+var alchemyTable = [];
 
-$.getJSON("/Core/Data/alchemy.json", function(data) {
-    alchemyTable = data;
-});
-
+//set variables for current ingredients and effects list
 var myIngredients = [];
 var effectList = [];
 
+//retrieve the accounts
 var accounts = [];
+var me = { id: -1 };
 
-$.getJSON("/Core/Data/accounts.json", function(data) {
-    acounts = data;
-});
+//initialize new character
+var newChar = {};
 
 $(function() {
 
-    id = getCookie("id");
-
-    if (id == "") {
-        document.cookie = "id=" + Math.random() + ";";
-    }
-
     loadNav(function() {
-        loadAlchemyTable(function() {});
+
+        loadAlchemyTable();
+        loadAccounts(function() {
+            loadChars();
+        });
+
+        $.getJSON("/Core/Data/alchemy.json", function(data) {
+            alchemyTable = data;
+        });
+
     });
 
     $("#ingSearch").keyup(function() {
@@ -40,8 +43,6 @@ $(function() {
             $("#currIngTable").html(updateTable);
         }
     });
-
-
 
 });
 
@@ -71,11 +72,35 @@ function loadNav(callback) {
     }); //$.get
 }
 
+function loadAccounts(callback) {
+    id = getCookie("id");
+
+    if (id == "") {
+        document.cookie = "id=" + Math.random() + ";";
+        me.id = parseFloat(id);
+    } else {
+
+        $.getJSON("/Core/Data/accounts.json", function(data) {
+            accounts = data;
+            for (var i = 0; i < accounts.length; i++) {
+
+                if (accounts[i].id == parseFloat(id)) {
+                    me = accounts[i];
+                }
+            }
+            callback();
+        }).fail(function(err) {
+            console.log(err);
+        });
+
+    }
+}
+
 /*
     For Alchemy Page
 */
 
-function loadAlchemyTable(callback) {
+function loadAlchemyTable() {
 
     var tables = "<center><h3 class='cinzel'>SKYRIM</h3></center>" +
         "<div class='table-responsive'>" +
@@ -151,8 +176,6 @@ function loadAlchemyTable(callback) {
     tables += "</tr></table></div>";
 
     $("#ingredients").html(tables);
-
-    callback();
 
 }
 
@@ -243,21 +266,59 @@ function clearIng() {
     For Character Page
  */
 
-function newChar(overwrite) {
+function loadChars() {
 
-    var me;
+    if (me.id != -1) {
 
-    for (var i = 0; i < accounts.length; i++) {
-        if (accounts[i].id == id) {
-            me = accounts[i];
+        for (var i = 0; i < me.character.length; i++) {
+
+            var newCharPanel = "<div class='panel panel-default' id='charPanel'>" +
+                "<div class='panel-body'>" +
+                "<div class='row'>" +
+                "<div class='col-sm-4'>" +
+                "<img src='" + me.character[i].img + "' alt='" + me.character[i].race + "' class='img-thumbnail img-responsive center-block'>" +
+                "</div>" +
+                "<div class='col-sm-8'>" +
+                "<form class='form-horizontal'>" +
+                "<div class='form-group'>" +
+                "<label class='col-sm-2 control-label'>Name</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].name + "</p>" +
+                "</div>" +
+                "<label class='col-sm-2 control-label'>Race</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].race + "</p>" +
+                "</div>" +
+                "<label class='col-sm-2 control-label'>Faction</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].faction + "</p>" +
+                "</div>" +
+                "<label class='col-sm-2 control-label'>Follower</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].follower + "</p>" +
+                "</div>" +
+                "<label class='col-sm-2 control-label'>Class</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].class + "</p>" +
+                "</div>" +
+                "<label class='col-sm-2 control-label'>Details</label>" +
+                "<div class='col-sm-10'>" +
+                "<p class='form-control-static'>" + me.character[i].details + "</p>" +
+                "</div>" +
+                "</div>" +
+                "</form>" +
+                "</div>" +
+                "</div>" +
+                "</div>" +
+                "</div>";
+
+            $("#characterPanels").append(newCharPanel);
+
         }
     }
+}
 
-    if (overwrite) {
-        me.character = [];
-    }
-
-    var newCharacter = {};
+function randomize() {
 
     var race = Math.floor(Math.random() * 10);
     var faction = Math.floor(Math.random() * 10);
@@ -266,34 +327,44 @@ function newChar(overwrite) {
 
     switch (race) {
         case 0:
-            newCharacter.race = "Breton";
+            newChar.race = "Breton";
+            newChar.img = "/Core/Images/Races/Breton.png";
             break;
         case 1:
-            newCharacter.race = "Bosmer";
+            newChar.race = "Bosmer";
+            newChar.img = "/Core/Images/Races/Bosmer.png";
             break;
         case 2:
-            newCharacter.race = "Redguard";
+            newChar.race = "Redguard";
+            newChar.img = "/Core/Images/Races/Redguard.png";
             break;
         case 3:
-            newCharacter.race = "Argonian";
+            newChar.race = "Argonian";
+            newChar.img = "/Core/Images/Races/Argonian.png";
             break;
         case 4:
-            newCharacter.race = "Osimer";
+            newChar.race = "Orsimer";
+            newChar.img = "/Core/Images/Races/Orsimer.png";
             break;
         case 5:
-            newCharacter.race = "Altmer";
+            newChar.race = "Altmer";
+            newChar.img = "/Core/Images/Races/Altmer.png";
             break;
         case 6:
-            newCharacter.race = "Khajiit";
+            newChar.race = "Khajiit";
+            newChar.img = "/Core/Images/Races/Khajiit.png";
             break;
         case 7:
-            newCharacter.race = "Imperial";
+            newChar.race = "Imperial";
+            newChar.img = "/Core/Images/Races/Imperial.png";
             break;
         case 8:
-            newCharacter.race = "Nord";
+            newChar.race = "Nord";
+            newChar.img = "/Core/Images/Races/Nord.png";
             break;
         case 9:
-            newCharacter.race = "Dunmer";
+            newChar.race = "Dunmer";
+            newChar.img = "/Core/Images/Races/Dunmer.png";
             break;
 
         default:
@@ -302,34 +373,34 @@ function newChar(overwrite) {
 
     switch (faction) {
         case 0:
-            newCharacter.faction = "The Companions";
+            newChar.faction = "The Companions";
             break;
         case 1:
-            newCharacter.faction = "Mage's College";
+            newChar.faction = "Mage's College";
             break;
         case 2:
-            newCharacter.faction = "Dark Brotherhood";
+            newChar.faction = "Dark Brotherhood";
             break;
         case 3:
-            newCharacter.faction = "Thieve's Guild";
+            newChar.faction = "Thieve's Guild";
             break;
         case 4:
-            newCharacter.faction = "Dawnguard";
+            newChar.faction = "Dawnguard";
             break;
         case 5:
-            newCharacter.faction = "Vampire";
+            newChar.faction = "Vampire";
             break;
         case 6:
-            newCharacter.faction = "Blade";
+            newChar.faction = "Blade";
             break;
         case 7:
-            newCharacter.faction = "Imperial Army";
+            newChar.faction = "Imperial Army";
             break;
         case 8:
-            newCharacter.faction = "Stormcloak";
+            newChar.faction = "Stormcloak";
             break;
         case 9:
-            newCharacter.faction = "Bard's College";
+            newChar.faction = "Bard's College";
             break;
 
         default:
@@ -338,34 +409,34 @@ function newChar(overwrite) {
 
     switch (follower) {
         case 0:
-            newCharacter.follower = "Same class as you";
+            newChar.follower = "Same class as you";
             break;
         case 1:
-            newCharacter.follower = "Wizard";
+            newChar.follower = "Wizard";
             break;
         case 2:
-            newCharacter.follower = "Knight";
+            newChar.follower = "Knight";
             break;
         case 3:
-            newCharacter.follower = "Ranger";
+            newChar.follower = "Ranger";
             break;
         case 4:
-            newCharacter.follower = "Barbarian";
+            newChar.follower = "Barbarian";
             break;
         case 5:
-            newCharacter.follower = "Spellsword";
+            newChar.follower = "Spellsword";
             break;
         case 6:
-            newCharacter.follower = "Same race as you";
+            newChar.follower = "Same race as you";
             break;
         case 7:
-            newCharacter.follower = "Argonian";
+            newChar.follower = "Argonian";
             break;
         case 8:
-            newCharacter.follower = "Khajiit";
+            newChar.follower = "Khajiit";
             break;
         case 9:
-            newCharacter.follower = "Lydia";
+            newChar.follower = "Lydia";
             break;
 
         default:
@@ -374,51 +445,91 @@ function newChar(overwrite) {
 
     switch (newclass) {
         case 0:
-            newCharacter.class = "Wizard";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Wizard";
+            newChar.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
             break;
         case 1:
-            newCharacter.class = "Knight";
-            newCharacter.details = "Heavy armor, One-Handed and Blocking or Two-Handed and Archery. Can't use magic. Smithing focus.";
+            newChar.class = "Knight";
+            newChar.details = "Heavy armor, One-Handed and Blocking or Two-Handed and Archery. Can't use magic. Smithing focus.";
             break;
         case 2:
-            newCharacter.class = "Ranger";
-            newCharacter.details = "Light Armor, One-Handed, and Archery. Can't use magic or heavy armor. Enchanting focus.";
+            newChar.class = "Ranger";
+            newChar.details = "Light Armor, One-Handed, and Archery. Can't use heavy armor. Enchanting focus.";
             break;
         case 3:
-            newCharacter.class = "Barbarian";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Barbarian";
+            newChar.details = "Two-Handed or Dual Wielding, Light Armor, and Archery. Can't use magic or heavy armor. Alchemy focus.";
             break;
         case 4:
-            newCharacter.class = "Spellsword";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Spellsword";
+            newChar.details = "Conjuration, One-Handed or Two-Handed, and Destruction. Can't use non-conjured weapons. Enchanting focus.";
             break;
         case 5:
-            newCharacter.class = "Shaman";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Shaman";
+            newChar.details = "Restoration, One-Handed, and Destruction. Can't use heavy armor. Alchemy focus.";
             break;
         case 6:
-            newCharacter.class = "Necromancer/Warlock";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Necromancer/Warlock";
+            newChar.details = "Conjuration, Destruction, and Alteration. Can't use restoration. Alchemy focus.";
             break;
         case 7:
-            newCharacter.class = "Assassin";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Assassin";
+            newChar.details = "Sneak, Illusion, and One-Handed or Archery. Can't use heavy armor. Enchanting focus.";
             break;
         case 8:
-            newCharacter.class = "Paladin";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Paladin";
+            newChar.details = "Heavy Armor, Restoration, and One-Handed or Two-Handed. Can't use magic other than restoration. Smithing focus.";
             break;
         case 9:
-            newCharacter.class = "Bard";
-            newCharacter.details = "Destruction, Restoration, and Alteration. Can't use armor. Enchanting focus.";
+            newChar.class = "Bard";
+            newChar.details = "Illusion, Restoration, and One-Handed. Can't use destruction. Enchanting focus.";
             break;
 
         default:
             break;
     }
 
+    $("#newcharrace").html(newChar.race);
+    $("#newcharpic").html("<img src='" + newChar.img + "' alt='" + newChar.race + "' class='img-thumbnail img-responsive center-block'>");
+    $("#newcharfaction").html(newChar.faction);
+    $("#newcharfollower").html(newChar.follower);
+    $("#newcharclass").html(newChar.class);
+    $("#newchardetails").html(newChar.details);
 }
+
+function saveChar(overwrite) {
+
+    if (overwrite) {
+        me.character = [];
+    }
+
+    newChar.name = $("#newcharname").val();
+
+    me.character.push(newChar);
+
+    for (var i = 0; i < accounts.length; i++) {
+        if (accounts[i].id == me.id) {
+            accounts[i] = me;
+            console.log("After setting accounts[] array");
+        }
+    }
+
+    console.log("data sent:")
+    console.log(accounts);
+
+    $.post("../Core/Data/accounts.json", JSON.stringify(accounts), function(data, status) {
+        console.log("POST");
+        console.log(data);
+        $(".modal-body").append("<div class='alert alert-success'><b>Saved: </b>" + status + "</div>");
+        //location.reload()
+    }, 'json').fail(function(err) {
+        $(".modal-body").append("<div class='alert alert-danger'><b>ERROR: </b>" + err + "</div>");
+    });
+}
+
+/*
+    Misc. Functions
+*/
 
 function getCookie(cname) {
     var name = cname + "=";
@@ -433,4 +544,19 @@ function getCookie(cname) {
         }
     }
     return "";
+}
+
+function postJSON(url, data, successFunc, failFunc) {
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: data,
+        dataType: 'json',
+        success: function(data, status) {
+            successFunc(data, status);
+        },
+        error: function(err) {
+            failFunc(err);
+        }
+    });
 }
