@@ -10,9 +10,12 @@ var effectList = [];
 //initialize new character
 var newChar = {};
 
+var alling = "";
+
 $(function() {
 
     //Disable all console commands
+    /*
     (function() {
 
         var _z = console;
@@ -29,6 +32,7 @@ $(function() {
         });
 
     })();
+    */
 
     loadNav(function() {
         $.getJSON("/Core/Data/alchemy.json", function(data) {
@@ -40,16 +44,38 @@ $(function() {
     });
 
     $("#ingSearch").keyup(function() {
+
+        $("#btn-dropdown").attr('aria-expanded', true);
+        $('#btn-group-dropdown').addClass('open');
+
         var updateTable = "";
+
         if ($(this).val() == "") {
-            $("#currIngTable").html("<li class='list-group-item' style='color: #ccc;'>Results</li>");
+            $("#currIngPanel").hide();
+
+            $("#ingSearch").css('border-bottom-left-radius', '4px');
+            $("#ingSearch").css('border-bottom-right-radius', '4px');
+
         } else {
+
+            $("#currIngPanel").show();
+
+            $("#ingSearch").css('border-bottom-left-radius', 0);
+            $("#ingSearch").css('border-bottom-right-radius', 0);
+
+            var found = false;
+
             for (var i = 0; i < alchemyTable.length; i++) {
                 if (alchemyTable[i].name.toLowerCase().includes($(this).val().toLowerCase())) {
                     updateTable += "<button type='button' class='list-group-item' onclick='addThis(this)'>" + alchemyTable[i].name + "</button>";
+                    found = true;
                 }
             }
-            $("#currIngTable").html(updateTable);
+            if (found) {
+                $("#currIngTable").html(updateTable);
+            } else {
+                $("#currIngTable").html("<button class='list-group-item disabled'>No Results</button>");
+            }
         }
     });
 
@@ -379,11 +405,15 @@ function loadAlchemyTable() {
 
     $("#ingredients").html(tables);
 
+    for (var i = 0; i < alchemyTable.length; i++) {
+        alling += "<li><a href='#' onclick='addThis(this)' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>" + alchemyTable[i].name + "</a></li>";
+    }
+
+    $("#ingResults").html(alling);
+
 }
 
 function addThis(item) {
-
-    $("#clearbtn").show();
 
     var exists = false;
 
@@ -397,60 +427,107 @@ function addThis(item) {
                 myIngredients.push(alchemyTable[i]);
             }
         }
+
+        $("#clearbtn").show();
+
+        $("#currIngList").html("");
+        $("#currPotList").html("");
+
+        for (var i = 0; i < myIngredients.length; i++) {
+            var newIng = "<li class='list-group-item'><button type='button' class='close' aria-label='Close' onclick='removeThis(this)'><span aria-hidden='true'>&times;</span></button>" + myIngredients[i].name + "</li>";
+            $("#currIngList").append(newIng);
+        }
+
+        if (myIngredients.length == 0) $("#clearbtn").hide();
+
+        for (var i = 0; i < myIngredients.length; i++) {
+            if (myIngredients[i].name == item.innerHTML) {
+                for (var j = 0; j < 4; j++) {
+                    var found = false;
+                    for (var k = 0; k < effectList.length; k++) {
+                        if (myIngredients[i].effect[j] == effectList[k].name) {
+                            found = true;
+                            effectList[k].freq++;
+                        }
+                    }
+                    if (!found) {
+                        effectList.push({
+                            name: myIngredients[i].effect[j],
+                            freq: 1
+                        });
+                    };
+                };
+            }
+        };
+        var newPotion = "";
+        for (var i = 0; i < effectList.length; i++) {
+            if (effectList[i].freq > 1) {
+                newPotion += "<li class='list-group-item'>";
+                if (effectList[i].freq % 2 == 0) newPotion += "<span class='badge'>" + (effectList[i].freq / 2) + "</span>";
+                else newPotion += "<span class='badge'>" + ((effectList[i].freq - 1) / 2) + "</span>";
+                newPotion += effectList[i].name + "</li>";
+            }
+        }
+        $("#currPotList").html(newPotion);
     }
+}
+
+function removeThis(item) {
+
+    //clear effect list
+    effectList = [];
+
+    //remove ingredient from ingredient list
+    for (var i = 0; i < myIngredients.length; i++) {
+        if (myIngredients[i].name == item.parentElement.innerText.substr(1) && i > -1) myIngredients.splice(i, 1);
+    }
+    console.log(myIngredients);
 
     $("#currIngList").html("");
+    $("#currPotList").html("");
 
     for (var i = 0; i < myIngredients.length; i++) {
-        var newIng = "<li class='list-group-item'>" + myIngredients[i].name + "</li>";
+        var newIng = "<li class='list-group-item'><button type='button' class='close' aria-label='Close' onclick='removeThis(this)'><span aria-hidden='true'>&times;</span></button>" + myIngredients[i].name + "</li>";
         $("#currIngList").append(newIng);
     }
 
+    var newIngList = $("#currIngList > li").text().substr(1).split("\u00d7");
+    console.log(newIngList);
+
+    if (myIngredients.length == 0) $("#clearbtn").hide();
+
     for (var i = 0; i < myIngredients.length; i++) {
-
-        if (myIngredients[i].name == item.innerHTML) {
-
-            for (var j = 0; j < 4; j++) {
-
-                var found = false;
-
-                for (var k = 0; k < effectList.length; k++) {
-
-                    if (myIngredients[i].effect[j] == effectList[k].name) {
-                        found = true;
-                        effectList[k].freq++;
+        for (var l = 0; l < newIngList.length; l++) {
+            if (myIngredients[i].name == newIngList[l]) {
+                for (var j = 0; j < 4; j++) {
+            
+                    var found = false;
+                    for (var k = 0; k < effectList.length; k++) {
+                        if (myIngredients[i].effect[j] == effectList[k].name) {
+                            found = true;
+                            effectList[k].freq++;
+                        }
+                    }
+                    if (!found) {
+                        effectList.push({
+                            name: myIngredients[i].effect[j],
+                            freq: 1
+                        });
                     }
                 }
-
-                if (!found) {
-
-                    effectList.push({
-                        name: myIngredients[i].effect[j],
-                        freq: 1
-                    });
-                }
             }
-
         }
-
     }
 
     var newPotion = "";
-
     for (var i = 0; i < effectList.length; i++) {
         if (effectList[i].freq > 1) {
             newPotion += "<li class='list-group-item'>";
-
-            if (effectList[i].freq % 2 == 0) {
-                newPotion += "<span class='badge'>" + (effectList[i].freq / 2) + "</span>";
-            } else {
-                newPotion += "<span class='badge'>" + ((effectList[i].freq - 1) / 2) + "</span>";
-            }
-
+            if (effectList[i].freq % 2 == 0) newPotion += "<span class='badge'>" + (effectList[i].freq / 2) + "</span>";
+            else newPotion += "<span class='badge'>" + ((effectList[i].freq - 1) / 2) + "</span>";
             newPotion += effectList[i].name + "</li>";
         }
     }
-
     $("#currPotList").html(newPotion);
 }
 

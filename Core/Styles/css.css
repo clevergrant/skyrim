@@ -95,6 +95,12 @@ a:hover {
     max-height: 30rem;
 }
 
+#currIngPanel {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: none;
+}
+
 
 /*
     Bootstrap Fixes
@@ -138,4 +144,11 @@ footer {
     user-select: none;
     /* Non-prefixed version, currently not supported by any browser */
     cursor: default;
+}
+
+.close:active,
+.close:hover,
+.close:visited,
+.close:focus {
+    outline: none;
 }
