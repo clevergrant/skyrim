@@ -72,34 +72,26 @@
                     <h3>Find Recipes</h3>
                 </center>
 
-                <form id="potionsDropdowns">
-
-                    <div class="form-group">
-                        <select class="form-control" id="effectSelect" name="firstSel">
-                            <option disabled selected>Effect</option>
-                            <option value="Standalone Potions">Standalone Potions</option>
-                            <option value="Damage">Damage</option>
-                            <option value="Ravage">Ravage</option>
-                            <option value="Fortify">Fortify</option>
-                            <option value="Regenerate">Regenerate</option>
-                            <option value="Restore">Restore</option>
-                            <option value="Magic Potions">Magic Potions</option>
-                        </select>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="list-group" id="firstPotSel">
+                            <button class="list-group-item" onclick="firstPotSel(1, this)">Singular Potions</button>
+                            <button class="list-group-item" onclick="firstPotSel(2, this)">Magic Potions</button>
+                            <button class="list-group-item" onclick="firstPotSel(3, this)">Fortify</button>
+                            <button class="list-group-item" onclick="firstPotSel(4, this)">Regenerate</button>
+                            <button class="list-group-item" onclick="firstPotSel(5, this)">Restore</button>
+                            <button class="list-group-item" onclick="firstPotSel(6, this)">Damage</button>
+                            <button class="list-group-item" onclick="firstPotSel(7, this)">Lingering Damage</button>
+                            <button class="list-group-item" onclick="firstPotSel(8, this)">Ravage</button>
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <select class="form-control" id="targetSelect" name="secondSel">
-                            <option disabled selected>Target</option>
-                        </select>
+                    <div class="col-sm-4">
+                        <div class="list-group" id="seconPotSel"></div>
                     </div>
-
-                    <div class="form-group">
-                        <select class="form-control" id="thirdSelect" style="display: none;" name="thirdSel"></select>
+                    <div class="col-sm-4">
+                        <div class="list-group" id="thirdPotSel"></div>
                     </div>
-
-                    <button class="btn btn-success">Find Recipe</button>
-
-                </form>
+                </div>
 
                 <div id="customIngredients"></div>
 
@@ -113,35 +105,3 @@
 </body>
 
 </html>
-
-<!--
-single effects:
-
-cure
-fear
-frenzy
-invisibility
-palarysis
-slow
-waterbreathing
-
-effects on health/stamina/magicka:
-
-damage
-damage regen
-lingering damage
-ravage
-
-(fortify)
-regenerate
-restore
-
-effects on skills:
-
-fortify
-
-elemental effects:
-
-resist
-weakness
--->
