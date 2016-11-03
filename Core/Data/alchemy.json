@@ -1175,5 +1175,137 @@
             "Regenerate Health"
         ],
         "whereFound": ""
+    },
+    {
+        "id": 98,
+        "expansion": "Dragonborn",
+        "name": "Ash Creep Cluster",
+        "effect": [
+            "Damage Stamina",
+            "Invisibility",
+            "Resist Fire",
+            "Fortify Destruction"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 99,
+        "expansion": "Dragonborn",
+        "name": "Ash Hopper Jelly",
+        "effect": [
+            "Restore Health",
+            "Fortify Light Armor",
+            "Resist Shock",
+            "Weakness to Frost"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 100,
+        "expansion": "Dragonborn",
+        "name": "Ashen Grass Pod",
+        "effect": [
+            "Resist Fire",
+            "Weakness to Shock",
+            "Fortify Lockpicking",
+            "Fortify Sneak"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 101,
+        "expansion": "Dragonborn",
+        "name": "Boar Tusk",
+        "effect": [
+            "Fortify Stamina",
+            "Fortify Health",
+            "Fortify Block",
+            "Frenzy"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 102,
+        "expansion": "Dragonborn",
+        "name": "Burnt Spriggan Wood",
+        "effect": [
+            "Weakness to Fire",
+            "Fortify Alteration",
+            "Damage Magicka Regen",
+            "Slow"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 103,
+        "expansion": "Dragonborn",
+        "name": "Emperor Parasol Moss",
+        "effect": [
+            "Damage Health",
+            "Fortify Magicka",
+            "Regenerate Health",
+            "Fortify Two-Handed"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 104,
+        "expansion": "Dragonborn",
+        "name": "Felsaad Tern Feathers",
+        "effect": [
+            "Restore Health",
+            "Fortify Light Armor",
+            "Cure Disease",
+            "Resist Magic"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 105,
+        "expansion": "Dragonborn",
+        "name": "Netch Jelly",
+        "effect": [
+            "Paralysis",
+            "Fortify Carry Weight",
+            "Restore Stamina",
+            "Fear"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 106,
+        "expansion": "Dragonborn",
+        "name": "Scathecraw",
+        "effect": [
+            "Ravage Health",
+            "Ravage Stamina",
+            "Ravage Magicka",
+            "Lingering Damage Health"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 107,
+        "expansion": "Dragonborn",
+        "name": "Spawn Ash",
+        "effect": [
+            "Ravage Stamina",
+            "Resist Fire",
+            "Fortify Enchanting",
+            "Ravage Magicka"
+        ],
+        "whereFound": ""
+    },
+    {
+        "id": 108,
+        "expansion": "Dragonborn",
+        "name": "Trama Root",
+        "effect": [
+            "Weakness to Shock",
+            "Fortify Carry Weight",
+            "Damage Magicka",
+            "Slow"
+        ],
+        "whereFound": ""
     }
 ]

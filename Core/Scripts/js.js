@@ -336,6 +336,30 @@ function loadAlchemyTable() {
 	}
 
 	tables += "</table></div>" +
+		"<center><h3 class='cinzel'>DRAGONBORN</h3></center>" +
+		"<div class='table-responsive'>" +
+		"<table class='table table-hover'>" +
+		"<tr style='background: #eee;'>" +
+		"<th>No.</th>" +
+		"<th>Ingredient</th>" +
+		"<th>Effect 1</th>" +
+		"<th>Effect 2</th>" +
+		"<th>Effect 3</th>" +
+		"<th>Effect 4</th>" +
+		"</tr>";
+
+	for (var i = 0; i < alchemyTable.length; i++) {
+		if (alchemyTable[i].expansion == "Dragonborn") {
+			tables += "<tr><td>" + (alchemyTable[i].id + 1) + "</td>" +
+				"<td>" + alchemyTable[i].name + "</td>" +
+				"<td>" + alchemyTable[i].effect[0] + "</td>" +
+				"<td>" + alchemyTable[i].effect[1] + "</td>" +
+				"<td>" + alchemyTable[i].effect[2] + "</td>" +
+				"<td>" + alchemyTable[i].effect[3] + "</td></tr>";
+		}
+	}
+
+	tables += "</table></div>" +
 		"<center><h3 class='cinzel'>DAWNGUARD</h3></center>" +
 		"<div class='table-responsive'>" +
 		"<table class='table table-hover'>" +
